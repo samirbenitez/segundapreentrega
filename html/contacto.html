@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cafecitos</title>
+    <!-- BS css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/img.logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar navbar-expand-lg bg-body-tertiary fondoheader">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="riplogo" src="../img/img.logo.png" alt="logo caffe">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav fuentes nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sobrenosotros.html">Sobre nosotros</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blogdecafe.html">Blog de Cafe</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- FORMULARIO CONTAINER -->
+
+    <h5>Registrate y contactate con nosotros!</h5>
+
+
+    <div class="col-3">
+        <button type="submit" class="btn btn-primary">
+            ANTENCION AL CLIENTE
+        </button>
+    </div>
+
+
+    <div class="container-fluid classcontac">
+        <form class="row g-3 mt-3">
+
+            <div class="col-6">
+                <label for="emailinput" class="form-label"> Email</label>
+                <input type="email" class="form-control" id="emailinput" placeholder="escribe tu email">
+
+            </div>
+
+            <div class="col-6">
+                <label for="inputpass" class="form-label"> contraseña </label>
+                <input type="password" class="form-control" id="inputpass" placeholder="escribe tu contraseña">
+
+            </div>
+
+            <div class="col-12">
+                <label for="inputadress" class="form-label">direccion</label>
+                <input type="text" class="form-control" id="inputadress" placeholder="direccion">
+
+            </div>
+
+            <div class="col-12">
+                <label for="inputadress" class="form-label">departamento</label>
+                <input type="text" class="form-control" id="inputadress" placeholder="piso">
+
+            </div>
+
+            <div class="col-6">
+                <label for="cityinput" class="form-label"> ciudad </label>
+                <input type="text" class="form-control" id="cityinput" placeholder="ciudad">
+            </div>
+
+
+            <div class="col-3">
+                <label for="postalcodeinput" class="form-label"> codigo postal </label>
+                <input type="text" class="form-control" id="postalcodeinput" placeholder="codigo postal">
+            </div>
+
+            <div class="col-3">
+                <label for="contryinput" class="form-label">pais </label>
+                <input type="text" class="form-control" id="contryinput" placeholder="pais">
+            </div>
+
+            <div class="col-12">
+                <div class="form-check">
+                    <input type="checkbox" id="checkterms" class="form-check-input">
+                    <label for="checkterms" class="form-check-label">Acepto los terminos y condiciones</label>
+                </div>
+
+
+            </div>
+
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">
+                    registrarse
+                </button>
+            </div>
+
+
+        </form>
+
+    </div>
+
+
+
+    <!-- FOOTER -->
+
+
+
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="../index.html" class="fotclass nav-link px-2">Inicio</a></li>
+            <li class="nav-item"><a href="./productos.html" class="fotclass nav-link px-2">productos</a></li>
+            <li class="nav-item"><a href="contacto.html" class="fotclass nav-link px-2">Contacto</a></li>
+            <li class="nav-item"><a href="./sobrenosotros.html" class="fotclass nav-link px-2">Sobre nosotros</a></li>
+            <li class="nav-item"><a href="./blogdecafe.html" class="fotclass nav-link px-2">Blog de Cafe</a></li>
+        </ul>
+        <p class="text-center fotclass">&copy; 2023 Company, Inc</p>
+
+        <h5>Podran visitarnos en nuestro local!</h5>
+
+        <iframe class="iframe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52575.72770387205!2d-58.777504891110475!3d-34.55398628053563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd7f8ed7ed6f%3A0xa141f13ddb761d51!2sSan%20Miguel%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1691370854972!5m2!1ses-419!2sar"
+            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+    </footer>
+
+
+
+    <!-- BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

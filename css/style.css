@@ -1,0 +1,146 @@
+
+/* header */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;1,200&family=Roboto+Condensed&display=swap');
+
+.fondoheader{
+ background-color: navajowhite!important;
+ font-weight: bolder;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.riplogo {
+ 
+    width: 120px;
+}
+
+header {
+    border-bottom: solid 5px; 
+    color: maroon;
+    
+}
+
+
+
+    /* HERO */
+
+.fondoimg{
+    background-image: url(../img/fondo.img);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.botoncolor {
+    background-color:navajowhite!important;
+    
+}
+ 
+.titulopri{
+    color: navajowhite!important;
+}
+
+/* PRODUCTOS */
+
+.tituloproductos {
+    background-color: navajowhite;
+    color: maroon;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.card {
+    margin: 1rem;
+ text-align: center;
+}
+
+/* CAROUSEL */
+
+.imgcarousel{
+    height: 350px;
+    object-fit: cover;
+}
+
+/* FOOTER */
+
+h5 {
+    text-align: center;
+    color: maroon;
+}
+
+.fotclass {
+    color: maroon;
+}
+
+
+.iframe {
+ 
+display: block;
+margin: auto;
+}
+
+
+/* FOMULARIO CONTEINER */
+
+.classcontac {
+    background-color: navajowhite;
+    }
+
+
+    /* SOBRE NOSOTROS */
+    
+   .imgnosotros {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius:10px #800;
+          
+   }
+
+
+ 
+p {
+    text-align: center;
+    text-decoration: solid;
+}
+
+/* BLOG */
+
+.contenedorblog{
+
+    margin: 10px;
+    border:  4px solid maroon;
+    border-radius: 5px;
+}
+
+.imgblog {
+ 
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.videoblog {
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    background-color: #800 ;
+    display: block;
+}
+
+
+
